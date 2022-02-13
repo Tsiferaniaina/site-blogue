@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lato:wght@900&family=Quintessential&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Barre de navigation*/
+.nav-item a{
+    color: #6c757d;
+}
+header{
+    height: 100vh;
+    margin-bottom: 40px;
+    background-size: cover;
+    background: url("./Media/books6.jpg") no-repeat 50% 15%; 
+}
+h1{
+    font-size: 4em;
+    padding: 170px 0 0 5%;
+    text-shadow: -3px 2px 2px #f8f9fa;
+    font-family: 'Quintessential', cursive;
+   
+}
+.aeration1{
+    height: 8vh;
+    margin-top: 6%;
+    text-align: center;
+    border-bottom: solid ;
+    font-family: 'Quintessential', cursive;
+}
+.aeration1 h2{
+    margin-top: -5%;
+}
+.main .card img{
+    border-radius: 50px;
+}
+.presentation1 .aeration{
+    height: 8vh;
+    text-align: center;
+    border-bottom: solid ;
+    font-family: 'Quintessential', cursive;
+}
+footer{
+    height: 8vh;
+    text-align: right;
+    font-size: 2em ;
+    background-color: lightgray;
+}
+
+@media screen and (max-width:680px){
+    header {
+        height: 50vh;
+    }
+    h1{
+        font-size: 2em;
+        padding: 100px 0 0 5%;
+        font-family: 'Quintessential', cursive;
+    }
+    .aeration1{
+        margin-top: -10%;
+        border-bottom: none;
+    }
+    .presentation1 .aeration{
+        margin-top: -10%;
+        border-bottom: none ;
+    }
+}
